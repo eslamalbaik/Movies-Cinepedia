@@ -1,71 +1,39 @@
 {
-  "name": "movieshelf",
-  "version": "0.1.0",
+  "name": "moviesapp",
+  "homepage": "./",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@hookform/resolvers": "^3.1.0",
-    "@leandrowkz/tmdb": "^2.1.2",
-    "@supabase/supabase-js": "^2.22.0",
-    "@types/md5": "^2.3.2",
-    "classnames": "^2.3.2",
-    "md5": "^2.3.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.23.0",
+    "framer-motion": "^10.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.44.3",
-    "react-icons": "^4.10.1",
+    "react-firebase-hooks": "^5.1.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.7.1",
+    "react-lazy-load-image-component": "^1.5.6",
     "react-router-dom": "^6.8.1",
-    "web-vitals": "^2.1.4",
-    "zod": "^3.21.4"
+    "react-toastify": "^9.1.1",
+    "tailwind-scrollbar": "^2.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
-    "@commitlint/config-conventional": "^17.6.1",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.0.0",
-    "@types/jest": "^29.4.0",
-    "@types/jsonp": "^0.2.1",
-    "@types/node": "^18.14.0",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "commitlint": "^17.6.1",
-    "eslint": "^8.0.1",
-    "eslint-config-prettier": "^8.7.0",
-    "eslint-config-standard-with-typescript": "^34.0.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.3",
-    "prettier": "^2.8.4",
-    "react-scripts": "5.0.1",
-    "source-map-explorer": "^2.5.3",
-    "typescript": "*"
-  },
-  "scripts": {
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "start": "react-scripts start",
-    "start:dev": "vercel dev",
-    "build": "react-scripts build",
-    "lint:check": "eslint ./src --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint ./src --ext .js,.jsx,.ts,.tsx --fix",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prepare": "husky install"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.0"
   }
 }
