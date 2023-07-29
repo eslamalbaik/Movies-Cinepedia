@@ -1,0 +1,54 @@
+.cast {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--spacer-large);
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.avatar {
+  position: relative;
+  border-radius: 100%;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  overflow: hidden;
+  background-position: center;
+  background-size: var(--avatar-size);
+}
+
+.avatar:before {
+  z-index: -1;
+  position: absolute;
+  background-size: var(--avatar-size);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: '🙅';
+  padding-top: 2px;
+  font-size: var(--avatar-size);
+  text-align: center;
+  background-color: white;
+  background-position: center;
+}
+
+.name {
+  margin-top: var(--spacer-small);
+  font-size: var(--font-size-small);
+  width: calc(var(--avatar-size) * 1.2);
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.mobile .name {
+  font-size: var(--font-size-small) !important;
+}
