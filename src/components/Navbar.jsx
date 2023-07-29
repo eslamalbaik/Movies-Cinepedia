@@ -54,7 +54,6 @@ function Navbar() {
                     <Link to="/trending"><li className= 'bg-gray-500/20 border-black p-2 my-2 hover:bg-blue-500/20 rounded-[5px] border-2 hover:border-blue-600'>Trending</li></Link>
                     <Link to="/upcoming"><li className= 'bg-gray-500/20 border-black p-2 my-2 hover:bg-blue-500/20 rounded-[5px] border-2 hover:border-blue-600'>Upcoming</li></Link>
                     <Link to="/favorite"><li className= 'bg-gray-500/20 border-black p-2 my-2 hover:bg-blue-500/20 rounded-[5px] border-2 hover:border-blue-600'>Favorites</li></Link>
-                    <Link to="/AboutUs"><li className= 'bg-gray-500/20 border-black p-2 my-2 hover:bg-blue-500/20 rounded-[5px] border-2 hover:border-blue-600'>About Us</li></Link>
 
                     </ul>
 

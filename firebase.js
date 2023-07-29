@@ -2,12 +2,13 @@ import { initializeApp } from "firebase/app";
 import {getAuth} from "firebase/auth"; 
 
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECTID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId:import.meta.env.VITE_FIREBASE_MESAGING_SENDER_ID,
-    appId: import.meta.env.APP_ID
+  apiKey: "AIzaSyDFdvS3kqhMWHFknFEYwhmgnxJ-GRXTcmc",
+  authDomain: "system-invoices.firebaseapp.com",
+  projectId: "system-invoices",
+  storageBucket: "system-invoices.appspot.com",
+  messagingSenderId: "556713980344",
+  appId: "1:556713980344:web:cc28539bf66d4fdca69f4d",
+  measurementId: "G-JVVYRRRZQH"
   };
 
 // Initialize Firebase

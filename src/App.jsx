@@ -7,7 +7,6 @@ import Container from './pages/Container'
 import Trending from './pages/Trending';
 import Upcoming from './pages/Upcoming';
 import Favorite from './pages/Favoritepage';
-import AboutUs from './pages/AboutUs';
 import { MovieProvider } from "./Contextpage";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -39,7 +38,6 @@ function App() {
           <Route path='/upcoming' element={<Upcoming />} />
           <Route path='/moviedetail/:id' element={<Detail />} />
           <Route path="/favorite" element={<Favorite />} />
-          <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
       </div>
     </MovieProvider>
